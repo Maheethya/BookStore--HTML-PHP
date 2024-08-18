@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('magicpattern-65O4Dw6-xLg-unsplash.jpg'); /* Add this line with the correct image file path */
+    background-size: cover; /* This property ensures the background image covers the entire viewport */
+    background-repeat: no-repeat; /* This property prevents the background image from repeating */
+    background-position: center center; /* This property centers the background image */
+
+
+}
+
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust opacity to your preference */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    width: 40%;
+    margin: 40px auto 0;
+    border-radius: 60px;
+    backdrop-filter: blur(10px); /* Adjust blur radius to your preference */
+}
+
+/* Base styles for navigation links */
+nav a {
+    color: #ffffff; /* Default color */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 22px;
+}
+
+/* Rounded button hover effect */
+nav a:hover {
+    color: #fff; /* Change text color on hover */
+    background-color: #007bff; /* Change background color on hover */
+    border-radius: 50px; /* Apply rounded corners */
+    padding: 10px 15px; /* Add padding for button appearance */
+}
+
+
+
+.social-icons {
+    margin: top 10%;
+    text-align:right;
+}
+
+.social-icons a {
+    color: rgb(228, 230, 231);
+    text-decoration:none;
+    margin: 0 10px;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 500px; /* Change the font size for h2 */
+    margin-bottom: 20px; /* Add margin to separate h2 and p */
+    text-align:start;
+    color: transparent; /* Hide text color initially */
+    background-image: linear-gradient(to right, #d7d7d7, #212223); /* Example gradient from orange to pink */
+    -webkit-background-clip: text; /* Clip text to the background */
+    background-clip: text; /* Clip text to the background */
+    animation: animateText 1s infinite alternate; /* Animation name, duration, iteration count, and direction */
+    text-transform: uppercase;
+}
+h1 {
+    font-size: 150px; /* Change the font size for h2 */
+    margin-bottom: 5px; /* Add margin to separate h2 and p */
+    text-align: center;
+    color: transparent; /* Hide text color initially */
+    background-image: linear-gradient(to right, #d7d7d7, #212223); /* Example gradient from orange to pink */
+    -webkit-background-clip: text; /* Clip text to the background */
+    background-clip: text; /* Clip text to the background */
+    animation: animateText 1s infinite alternate; /* Animation name, duration, iteration count, and direction */
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 50px; /* Change the font size for h2 */
+    margin-bottom: 5px; /* Add margin to separate h2 and p */
+    text-align: center;
+    color: transparent; /* Hide text color initially */
+    background-image: linear-gradient(to right, #ffffff, #a7afb7); /* Example gradient from orange to pink */
+    -webkit-background-clip: text; /* Clip text to the background */
+    background-clip: text; /* Clip text to the background */
+    animation: animateText 1s infinite alternate; /* Animation name, duration, iteration count, and direction */
+    text-transform: uppercase;
+}
+p {
+    font-size: 20px; /* Change the font size for h2 */
+    margin-bottom: 5px; /* Add margin to separate h2 and p */
+    text-align: center;
+    color: transparent; /* Hide text color initially */
+    background-image: linear-gradient(to right, #ffffff, #a7afb7); /* Example gradient from orange to pink */
+    -webkit-background-clip: text; /* Clip text to the background */
+    background-clip: text; /* Clip text to the background */
+    animation: animateText 1s infinite alternate; /* Animation name, duration, iteration count, and direction */
+    text-transform: uppercase;
+}
+
+
+
+
+
+footer {
+
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust opacity to your preference */
+    color: #281097;
+    text-align: center;
+    padding: 1em 0;
+    width: 90%;
+    margin: 20px auto 0;
+    border-radius: 60px;
+    backdrop-filter: blur(10px); /* Adjust blur radius to your preference */
+    text-transform: uppercase;
+}
+
+.container-box {
+    background-color: #f9f9f936;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-box .content {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+.container-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container-box p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+

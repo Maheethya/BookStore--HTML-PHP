@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles1.css">
+    <script type = "text/javascript" src="doValidate.js">
+    </script>
+
+</head>
+
+<body>
+
+    <div class="full-page">
+        <nav>
+            <a href="/bookstore/home.html">Home</a>
+            <a href="/bookstore/login.php">Login</a>
+            <a href="/bookstore/myapplication/view3.php">View</a>
+        </nav>
+		<div class="container-box">
+            <div class="content">
+                <h3>Contact Us</h3>
+                <form action="doInsert.php" method="POST" name = "myForm" onsubmit = "return validate()">
+                    <fieldset>
+                      <legend>Contact information:</legend>
+                      First name:<input type="text" name="firstname" placeholder="Your name"><br><br>
+                      Contact:<input type="text" name="number" placeholder="Your Number"><br><br>
+                      Email:<input type="email" name="email" placeholder="******@gmail"><br><br>
+                      Message:<input type="text" name="msg" placeholder="Your message"><br><br>
+                      <input type="Submit" name="Submit" value="Submit">
+                    </fieldset>
+                  </form>
+            </div>
+        </div>
+        
+
+    </div>
+    <footer>
+        &copy; 2024 bookstore. All rights reserved.
+    </footer>
+</body>
+
+</html>
